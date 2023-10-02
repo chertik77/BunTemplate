@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://chertik77.github.io/BunTemplate/",
   "scripts": {
     "d": "bun lint && bunx vite",
     "b": "npm run lint && vite build",

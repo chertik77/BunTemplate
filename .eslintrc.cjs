@@ -6,6 +6,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
+    'plugin:tailwindcss/recommended',
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parserOptions: {
@@ -15,5 +16,15 @@ module.exports = {
   },
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
-  rules: { 'react-refresh/only-export-components': ['warn', { allowConstantExport: true }] },
+  rules: { 'react-refresh/only-export-components': ['warn', { allowConstantExport: true }]},
+  overrides: [
+    {
+      files: ['*.jsx', '*.js'],
+      parser: '@typescript-eslint/parser',
+    },
+    {
+    files: ['*.html', '*.blade.php'],
+    parser: '@angular-eslint/template-parser',
+  },
+  ],
 };

@@ -6,7 +6,7 @@
   "homepage": "https://chertik77.github.io/BunTemplate/",
   "scripts": {
     "d": "bun lint && bunx vite",
-    "b": "npm run lint && vite build",
+    "b": "npm run lint && vite build --base=/BunTemplate/",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {

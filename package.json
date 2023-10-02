@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "d": "bun lint && bunx vite",
-    "b": "bun lint && bunx vite build",
+    "b": "npm run lint && vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {

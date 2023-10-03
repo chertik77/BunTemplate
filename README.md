@@ -1,8 +1,28 @@
-## Bun Template
+## ReactTemplate
 
-**_Are you tired of managing a tangled web of JavaScript files in your projects? Say goodbye to the
-complexity and hello to efficiency with JS Bundler Pro!_**
+# How to start use it?
 
-**_JS Bundler Pro is the ultimate tool for developers who want to streamline and optimize their
-JavaScript code. Whether you're working on a small web app or a large-scale enterprise project, our
-bundler is designed to simplify your workflow and improve the performance of your applications._**
+Використовуйте цей репозиторій як шаблон для створення репозиторія свого проекта. Для цього нажми на
+кнопку `«Use this template»` и вибери опцію `«Create a new repository»`.
+
+На наступному кроці відкриється сторінка створення нового репозиторія. Заповни поле його імені,
+переконайся що репозиторій публічний, після чого нажми кнопку `«Create repository from template»`.
+
+Після того як репозиторій буде створений, необхідно перейти в налаштування створеного репозиторія на
+вкладку `Settings` > `Actions` > `General`.
+
+Проскролив сторінку до самого кінця, в секції `«Workflow permissions»` вибери опцію
+`«Read and write permissions»` и постав галочку в чекбоксі. Это необхідно для автоматизації процеса
+деплоя проекту.
+
+## How to configure your repo?
+
+1. Встанови базові залежності проекту командою `bun i`.
+
+2. Запусти режим розробки, виконавши команду `bun d`.
+3. Перейди в браузер по адресі яка тобі була згенерована. Ця сторінка буде автоматично
+   перезапускатися після збереження змін в файлах проекту.
+4. Необхідно в файлі `package.json` відредагувати поле `homepage`, замінив `your_username` и
+   `your_repo_name` на свої, и відправити зміни на GitHub.
+5. Далі необхідно зайти в налаштування GitHub-репозиторія (`Settings` > `Pages`) и вставити роздачу
+   продакшн версії файлів з папки `/root` гілки `gh-pages`, якщо це не було зроблено автоматично.

@@ -10,13 +10,13 @@
     "lint:fix": "eslint --fix src"
   },
   "dependencies": {
+    "@typescript-eslint/parser": "^6.7.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
-    "@typescript-eslint/parser": "^6.7.4",
     "@vitejs/plugin-react-swc": "^3.3.2",
     "eslint": "^8.50.0",
     "eslint-plugin-react": "^7.32.2",

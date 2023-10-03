@@ -12,7 +12,7 @@
 вкладку `Settings` > `Actions` > `General`.
 
 Проскролив сторінку до самого кінця, в секції `«Workflow permissions»` вибери опцію
-`«Read and write permissions»` и постав галочку в чекбоксі. Это необхідно для автоматизації процеса
+`«Read and write permissions»` і постав галочку в чекбоксі. Це необхідно для автоматизації процеса
 деплоя проекту.
 
 ## How to configure your repo?

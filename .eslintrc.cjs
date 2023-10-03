@@ -7,6 +7,7 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
     'plugin:tailwindcss/recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parserOptions: {
@@ -15,7 +16,7 @@ module.exports = {
     ecmaFeatures: { jsx: true },
   },
   settings: { react: { version: '18.2' } },
-  plugins: ['react-refresh'],
+  plugins: ['react-refresh', '@typescript-eslint'],
   rules: { 'react-refresh/only-export-components': ['warn', { allowConstantExport: true }] },
   overrides: [
     {
